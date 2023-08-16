@@ -1,0 +1,360 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.main
+{
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color:transparent;
+  
+}
+.main-header
+{
+     width:100%;
+     height:200px;
+    
+}
+.header-2
+{
+    width:100%;
+    height:145px;
+    display: flex;
+   
+    justify-content: center;
+}
+.header-box
+{
+     width: 100%;
+     height:55px;
+     
+     background-color: transparent;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.topi
+{
+     display: flex;
+     justify-content: center;
+}     
+.light
+{
+    width:50px;
+    height:50px;
+    background-color: blue;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light-second
+{
+    width:25px;
+    height:25px;
+    border-radius:20px;
+    background-color: black;
+}
+.tail-part
+{
+    width: 150px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+}
+.box-tail
+{
+     width:60px;
+     height:145px;
+     display: flex;
+     justify-content: center;
+}
+.tail
+{
+    border-bottom:9.1em solid rgb(43, 43, 99);
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+    height:0;
+    width: 8px;
+}
+
+/** robot face started here **/
+.rob-face-part
+{
+    height: 153px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ear
+{
+     width:26px;
+     height: 50px;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.ears{
+    width:13px;
+    height: 25px;
+   background-color: rgb(78, 169, 200);
+}
+.robo-face
+{
+    height:153px;
+    width:151px;
+    border:2px solid black;
+    background-color: rgb(76, 197, 237);
+}
+/** ears part **/
+
+/** eye part of the robo **/
+.eye-part
+{
+     width: 150px;
+     height: 45px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.eyes
+{
+        border:2px solid red;
+        width:25px;
+        height:25px;
+        background-color: black;
+        border-radius:20px;
+        display: flex;
+        justify-content: center;   
+        align-items: center;   
+}
+.eye-balls
+{
+   
+    width:5px;
+    height:5px;
+    background-color: white;
+    border-radius:20px;
+}
+.nose-part
+{
+    width: 150px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+}
+.box-nose
+{
+     width:60px;
+     height:50px;
+     display: flex;
+     justify-content: center;
+}
+.nose
+{
+    border-bottom:2.8em solid rgb(43, 43, 99);
+    border-left:1.2em solid transparent;
+    border-right:1.2em solid transparent;
+    height:0;
+    width: 8px;
+}
+.teeth-part
+{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teeth
+{
+   
+     width: 110px;
+     height:30px;
+     display: flex;
+     justify-content: center;
+}
+
+.real-teeth
+{
+     height:25px;
+     width:20px;
+     border:2px solid black;
+     background-color: white;
+}
+.lowerbody
+{
+    height: 211px;
+    width: 100%;
+}
+.neck-part
+{
+    width: 100% ;
+    height:36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.neck{
+     height:40px;
+     width: 50px;
+     padding-left: 10px;
+
+}
+.real-neck
+{
+     height:12.8px;
+     width:30px;
+     border:2px solid black;
+     background-color: blueviolet;
+}
+.stomach
+{
+     height:174px;
+     width: 100%;
+     display:flex;
+     float:left;
+     justify-content: center;
+     align-items:center;
+
+}
+.stomach-1
+{
+     height:173px;
+     width:220px;
+     border:1px solid black;
+     background-color: rgb(68, 68, 22);
+}
+.chest
+{
+     height:50px;
+     width: 200px;
+     border:2px solid black;
+     margin-left: 10px;
+     background-color: rgb(111, 173, 194);
+     margin-top:15px;
+}
+.lower-stomach
+{
+     height:80px;
+     width:190px;
+     border:2px solid black;
+     background-color: rgb(191, 141, 48);
+     margin-top: 10px;
+     margin-left:15px;
+     display: flex;
+     align-items: center;
+     float: left;
+}
+.body1
+{
+    border:2px solid red;
+    width:25px;
+    height:25px;
+    background-color: black;
+    border-radius:20px;
+    margin-left:10px;
+}
+.body2
+{
+     width:80px;
+     height:40px;
+     background-color: blue;
+     border:2px solid black;
+     margin-left:20px;
+     color:white;
+     font-size:1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.hand
+{
+    width:30px;
+    height:30px;
+    background-color: blue;
+    border-radius:30px;
+}
+.hand1
+{
+     width:90px;
+     height:30px;
+     display: flex;
+
+}
+.hand-block
+{
+     width: 30px;
+     height:30px;
+     border:2px solid black;
+     background-color: orange;
+}
+.footer
+{
+      width:100%;
+      height:134px;
+}
+.legs
+{
+      width:100%;
+      height:36px;
+      display: flex;
+      justify-content: center;
+}
+.left-right-leg
+{
+     width: 60px;
+     height: 36px;
+     margin-left: 30px;
+}
+.leg-block
+{
+      width:25px;
+      height:12px;
+      border:2px solid black;
+      background-color: brown;
+}
+.boots
+{
+      width:100%;
+      height:80px;
+      display: flex;
+      justify-content: center;
+}
+.left-boot{
+      width:80px;
+      height:40px;
+      display: flex;
+      justify-content:center;
+      margin-right: 10px;
+}
+.right-boot{
+     width:80px;
+     height:40px;
+     display: flex;
+     justify-content: center;
+}
+.left-right-boot1
+{
+     width: 60px;
+     height: 36px;
+     background-color: darkorchid;
+     border:2px solid black;
+     border-radius:20px;
+}
+.left-right-boot2
+{
+     width: 60px;
+     height: 36px;
+     background-color: darkorchid;
+     border:2px solid black;
+     border-radius:20px;
+}
